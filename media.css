@@ -1,0 +1,22 @@
+@media (max-width: 992px) {
+    .burger {
+        display: flex;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-item.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #16181b;
+        width: 100%;
+        height: 100%;
+    }
+}
